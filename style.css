@@ -1,0 +1,243 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+  *{
+    padding:0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+  }
+a{
+
+    text-decoration: none;
+    color: #fff;
+}
+
+ li{
+    list-style: none;
+ }
+ .nav{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.nav,
+.nav_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+   
+}
+.header{
+    position: fixed;
+  
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+}
+
+.button{
+    color: #fff;
+
+    border: 2px solid #fff;
+  
+    padding: 6px 24px;
+    font-size: 1.1rem;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button:active{
+    transform: scale(0.98);
+}
+
+.nav_item{
+    column-gap: 25px;
+}
+
+.nav_logo{
+    font-size: 2.1rem;
+}
+
+.nav_item a{
+    font-size: 1.2rem;
+}
+
+.nav_link:hover{
+    color: #d9d9d9;
+}
+
+/* home */
+
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('img/andras-vas-Bd7gNnWJBkU-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* form */
+.form_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 101;
+    background-color: #fff;
+    max-width: 320px;
+    width: 100%;
+   
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+} 
+
+.signup_form{
+    display: none;
+}
+
+.form_close{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #0b0217;
+    font-size: 22px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+form h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+    color: #0b0217;
+}
+
+
+
+.input_box{
+   position: relative;
+   margin-top: 30px;
+   width: 100%;
+   height: 40px;
+  
+  
+   
+    
+    
+}
+
+.input_box input{
+height: 100%;
+width: 100%;
+ border: none;
+ outline: none;
+ border-bottom: 1.5px solid #aaaaaa;
+ padding: 0 30px;
+ color: #333;
+ transition: all 0.2s ease;
+}
+
+
+
+.input_box input:focus{
+    border-color: #7d2ae8;
+}
+
+
+.input_box input:focus ~ i.email,
+.input_box input:focus ~ i.password{
+    color: #7d2ae8;
+}
+
+
+
+.input_box i{
+    position: absolute;
+    top: 50%;
+    
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.input_box i.password,
+.input_box i.email{
+    left: 0px;
+    color: #707070;
+}
+
+
+
+  .input_box i.pw_hide {
+    color: #707070;
+    right: 0px;
+  }
+
+  .option_field a{
+    color: blue;
+  }
+
+  .option_field{
+  margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ .checkbox{
+    column-gap: 8px;
+    display: flex;
+    white-space: nowrap;
+    cursor: pointer;
+ }
+
+ .form_container a{
+    color: #7d2ae8;
+    font-size: 12px;
+ }
+
+ .form_container a:hover{
+    text-decoration: underline;
+ }
+
+ .checkbox input{
+    accent-color: #7d2ae8;
+ }
+
+ .checkbox label{
+    cursor: pointer;
+    font-size: 12px;
+    color: #0b0217;
+    user-select: none;
+ }
+
+ .btn{
+    background-color: #7d2ae8;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    border: solid 1px #fff;
+    width: 100%;
+  margin-top: 30px;
+  padding: 10px 0;
+ }
+
+ .Login_signup{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+
+ }
+
+
+
+ 
